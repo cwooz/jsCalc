@@ -1,0 +1,61 @@
+body {
+  background-color: #000000;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.container {
+  font-family: 'Courier New', Courier, monospace;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas:
+  "header header header header"
+  "main main main main"
+  "main main main main"
+  "main main main main"
+  "main main main main"
+  "main main main main"
+}
+
+.item-header {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: right;
+  font-size: 64px;
+}
+
+.btn {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: dimgray;
+  border: none;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+  height: 76px;
+  font-size: 26px;
+}
+
+.silver {
+  background-color: silver;
+  color: #000000;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.wide {
+  width: 156px;
+  border-radius: 50px;
+}
+
+.hide {
+  visibility: hidden;
+  z-index: -1;
+}
