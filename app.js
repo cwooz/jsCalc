@@ -43,6 +43,8 @@ keys.addEventListener('click', e => {
       console.log('number key!');
       if (displayedNum === '0') {
         display.textContent = keyContent;
+      } else {
+        display.textContent = displayedNum + keyContent;
       }
     }
 
@@ -57,6 +59,7 @@ keys.addEventListener('click', e => {
 
     if (action === 'decimal') {
       console.log('decimal key');
+      display.textContent = displayedNum + '.'
     }
 
     if (action === 'clear') {
