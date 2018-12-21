@@ -24,8 +24,11 @@ body {
   grid-row-end: 1;
   background-color: #000000;
   color: #FFFFFF;
-  text-align: right;
+  /* text-align: right; */
+  text-align: center;
   font-size: 64px;
+
+  margin-left:  240px;
 }
 
 .btn {
